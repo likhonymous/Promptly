@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useState, useEffect, useRef } from 'react';
 import { WebContainer } from '@webcontainer/api';
-import { files } from '../lib/files';
+import { files } from '@/lib/files';
 import { Terminal } from 'xterm';
 import { FitAddon } from 'xterm-addon-fit';
 
